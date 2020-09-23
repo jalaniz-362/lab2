@@ -1,6 +1,6 @@
 
 
-/*Desktop */
+/*Desktop Compatability*/
 @media only screen and (max-width: 800px){
 	html {
 		background-color: plum;
@@ -34,7 +34,43 @@
  label,input{
  	margin:5px;
  }
+}
+
+/*Mobile */
+
+@media only screen and (min-width: 560px){
+
+html 
+	{
+		background-color: plum;
+	}
+	#main {
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		border: 5px inset#8B008B;
+		font-family: 'Teko', sans-serif;
+		text-align:center;
+		background-color: palevioletred;
+		
+	}
 	
+	h2.red{
+		
+		text-align:center;
+		color:rebeccapurple;
+		font-size:30px;
+		text-decoration: underline;
+		padding: 5px;
+		
+	}
 	
-	
+	label {
+ 	display:inline;
+
+ }
+
+ label,input{
+ 	margin:5px;
+	}
 }
