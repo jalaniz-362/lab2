@@ -36,29 +36,29 @@
  }
 }
 
-/*Mobile */
+/*Mobile Comptability*/
 
 @media only screen and (min-width: 560px){
 
 html 
 	{
-		background-color: plum;
+		background-color: teal;
 	}
 	#main {
-		width: 85%;
+		width: 35%;
 		margin-left:auto;
 		margin-right:auto;
-		border: 5px inset#8B008B;
+		border: 5px inset#E6E6FA;
 		font-family: 'Teko', sans-serif;
 		text-align:center;
-		background-color: palevioletred;
-		
+		background-color: ivory;
+		color: #483D8B;
 	}
 	
 	h2.red{
 		
 		text-align:center;
-		color:rebeccapurple;
+		color:silver;
 		font-size:30px;
 		text-decoration: underline;
 		padding: 5px;
@@ -71,6 +71,6 @@ html
  }
 
  label,input{
- 	margin:5px;
+ 	margin:16px;
 	}
 }
