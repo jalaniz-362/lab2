@@ -14,18 +14,17 @@
 		</header>
 		<form>
 			<!---User Email-->
-			<label for="email"> Please enter Email Address: </label>
-			<input type="text" id="email" name="email" placeholder="johnsmith@iit.edu" required>
+			<p><label for="email"> Please enter Email Address: </label></p>
+			<input type="email" id="email" name="email" placeholder="johnsmith@iit.edu" required>
 			
 			<!---User  Phone Number (U.S)-->
-			<label for="pnumber"> Please enter Phone Number: </label>
-			<input type="text" id="pnumber" name="pnumber" placeholder="000-000-0000" required>
+			<p><label for="pnumber"> Please enter Phone Number: </label></p>
+			<input type="text" id="pnumber" name="pnumber" placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
 			
 			<!---User Date of Birth-->
-			<label for="dob"> Please enter Date of Birth: </label>
-			<input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+			<p><label for="dob"> Please enter Date of Birth: </label></p>
+			<input type="text" id="dob" name="dob" placeholder="YYYY-MM-DD" pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))"  required>
 			
-	
 	
 			<!---Submit button--->
 			
