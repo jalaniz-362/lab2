@@ -1,0 +1,18 @@
+
+
+/*Desktop */
+@media only screen and (max-width: 800px){
+	html {
+		background-color: plum;
+	}
+	#main {
+		width: 85%;
+		margin-left:auto;
+		margin-right:auto;
+		border: 5px inset#8B008B;
+		text-align:center;
+		background-color: palevioletred;
+		
+	}
+	
+}
