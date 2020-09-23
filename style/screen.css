@@ -10,6 +10,7 @@
 		margin-left:auto;
 		margin-right:auto;
 		border: 5px inset#8B008B;
+		font-family: 'Teko', sans-serif;
 		text-align:center;
 		background-color: palevioletred;
 		
@@ -23,5 +24,17 @@
 		text-decoration: underline;
 		padding: 5px;
 		
-		
+	}
+	
+	label {
+ 	display:inline;
+
+ }
+
+ label,input{
+ 	margin:5px;
+ }
+	
+	
+	
 }
